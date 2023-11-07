@@ -38,6 +38,10 @@
 <script type="text/javascript" src="/_res/board/_js/user/common.js"></script>
 
 		<script type="text/javascript" src="/_res/election/_js/user.js"></script>
+
+        <!-- 임시 이미지 보이기 -->
+        <link rel="stylesheet" href="tmpimage.css">
+
 	</head>
 	<body id="item_body" class="pc">
 		<ul id="go_main">
@@ -558,6 +562,16 @@
 				<div class="election-img-wrap">
 					<div class="election-img-box"><img src="/_res/election/img/content/candidate01.jpg" alt="기호 2번" class="fr-fic fr-dii"></div>
 				</div>
+                
+                <!-- 임시 이미지 보이기 -->
+                <div>
+                    <button id="showImageBtn">배너1</button>
+                    <div id="imageContainer" class="hidden">
+                        <img src="tmpimage.png" alt="임시이미지">
+                    </div>
+                    <script src="tmpscript.js"></script>
+                </div>
+
 				<div class="candidate-appeal01 appeal">
 					<div class="appeal-lnk-box"><a href="/cms/etcResourceDown.do?site=%24cms%24KYG2GMBcEsHsDsg&key=%24cms%24MYQwdgJglhIC4FMAMBGAtABwE4HsC2UAzggHQYQBmQA" target="_blank" title="선거공보 새창열림">선거공보</a></div>
 				</div>
